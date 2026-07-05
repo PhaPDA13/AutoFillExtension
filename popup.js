@@ -37,6 +37,6 @@ async function simulateHumanTyping(textToType) {
         
         // Tạo khoảng trễ ngẫu nhiên từ 5ms đến 15ms giữa các ký tự để mô phỏng người gõ siêu tốc
         // Khoảng trễ này giúp qua mặt các hệ thống phát hiện bot tự động điền chữ
-        await new Promise(resolve => setTimeout(resolve, Math.random() * 20 + 10));
+        await new Promise(resolve => setTimeout(resolve, Math.random() * 10 + 10));
     }
 }
